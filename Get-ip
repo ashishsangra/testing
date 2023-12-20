@@ -2,4 +2,4 @@
 #crafted by ashish
 #get your ip
 
-ip=$(curl -s "https://ipinfo.io/ip" && echo -e "Your IP: $ip\n")
+ip=$(curl -s "https://ipinfo.io/ip") && echo -e "Your IP: $ip\n"
